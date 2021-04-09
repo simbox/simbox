@@ -29,6 +29,9 @@ MIT
 
 #### Contribution
 Yes, Just create a pull request and you can contribute very easily.
+Remember, don't use raw `CSS`. Use `Scss` here and it is must.
+
+SCSS Documentation - https://sass-lang.com/documentation
 
 
 #### How to start for contribution
