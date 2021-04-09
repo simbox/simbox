@@ -8,8 +8,21 @@
 /** Colors **/
 /** Font Sizes **/
 .btn {
-  padding: 3px 10px;
+  padding: 10px 15px;
   font-size: 1rem;
-  border-radius: 3px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ebebeb;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background-color: #8dd6f9;
   border: 1px solid #8dd6f9;
+}
+.btn-primary:hover {
+  background-color: #259ffb;
 }
