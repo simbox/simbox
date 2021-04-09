@@ -1,0 +1,15 @@
+/**
+* Variables
+*
+* @since 0.0.1
+*
+* Assigned all variables color
+*/
+/** Colors **/
+/** Font Sizes **/
+.btn {
+  padding: 3px 10px;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 1px solid #8dd6f9;
+}

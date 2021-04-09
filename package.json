@@ -1,0 +1,36 @@
+{
+  "name": "simbox-css",
+  "version": "0.0.1",
+  "description": "Simbox - A CSS framework with Simplicity and Box layout which focuses on performance and simplicity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "keywords": [
+    "Simbox CSS",
+    "CSS Framework",
+    "Simple CSS Framework",
+    "Box Layout CSS Framework",
+    "Performant CSS Framework"
+  ],
+  "author": "Maniruzzaman Akash <manirujjamanakash@gmail.com> (https://akash.devsenv.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mini-css-extract-plugin": "^1.4.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "postcss-loader": "^5.2.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "terser-webpack-plugin": "^5.1.1",
+    "ts-loader": "^8.1.0",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {}
+}
