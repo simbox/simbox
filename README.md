@@ -29,3 +29,34 @@ MIT
 
 #### Contribution
 Yes, Just create a pull request and you can contribute very easily.
+
+
+#### How to start for contribution
+
+1. Clone the project - https://github.com/simbox/simbox.git
+
+```bash
+git clone https://github.com/simbox/simbox.git
+```
+
+2. Go to that folder
+```bash
+cd simbox
+```
+
+3. Install npm
+```bash
+npm install
+```
+
+4. Run with watch
+```bash
+npm start
+```
+
+5. Now do update on the folder inside `src/components`.
+
+
+6. Create Pull Request with proper details about PR in a new branch.
+
+7. Great. Your code will be merged, if it's valid. 
