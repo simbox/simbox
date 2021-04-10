@@ -16,13 +16,30 @@ Welcome to the world of SimBox CSS. It's a CSS framework which primary goal is t
 |-----------------------------------------|
 
 
-#### Todos:
+#### Todos & Features
 - [x] Create `Scss` or `Sass` Based CSS architecture
-- [ ] Create environment variables for all
-- [ ] CSS For Buttons
-- [ ] CSS For Card
-- [ ] CSS For Alert
-- [ ] CSS For Table
+- [x] Create environment variables for all
+- [x] Utility Helpers
+    - [x] Text/Font Utility
+    - [x] Color Utility
+    - [x] Margin Utility
+    - [x] Padding Utility
+- [ ] Navigation Bar [50%]
+- [ ] Grid System
+- [x] Banner
+- [x] Buttons
+- [ ] Carousel or Website Slider
+- [ ] Card
+- [ ] Alert
+- [ ] Table
+- [ ] Form Element
+    - [ ] Input
+    - [ ] Checkbox
+    - [ ] Switch / Toggle Button
+    - [ ] Auto Complete
+    - [ ] Input Slider (ie: Product Pricing Filter)
+- [ ] Modal
+- [ ] Toaster
 
 #### License
 MIT
