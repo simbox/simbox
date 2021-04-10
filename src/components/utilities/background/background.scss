@@ -1,5 +1,9 @@
 @each $color, $name in $colors {
-    .bg-#{$name} {
-        background-color: #{$color} !important;
-    }
+  .bg-#{$name} {
+    background-color: #{$color} !important;
+  }
+}
+
+.bg-transparent {
+  background-color: transparent !important;
 }

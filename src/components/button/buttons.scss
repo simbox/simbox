@@ -9,6 +9,21 @@
     background-color: $color-secondary-dark;
     transition: 0.3s;
   }
+  &-lg {
+    font-size: $font-size-lg;
+  }
+  &-sm {
+    padding: 10px 15px !important;
+    font-size: $font-size-sm;
+  }
+  &-xl {
+    padding: 20px 30px !important;
+    font-size: $font-size-xl;
+  }
+  &-xls {
+    padding: 20px 30px !important;
+    font-size: $font-size-sm;
+  }
 }
 
 .btn-primary {
@@ -18,9 +33,9 @@
 
   &:hover {
     background-color: $color-primary-dark !important;
+    color: $color-white !important;
   }
 }
-
 
 .btn-success {
   background-color: $color-success;
@@ -29,5 +44,39 @@
 
   &:hover {
     background-color: $color-success-dark !important;
+    color: $color-white !important;
+  }
+}
+
+.btn-error {
+  background-color: $color-error;
+  border: 1px solid $color-error;
+  color: $color-white !important;
+
+  &:hover {
+    background-color: $color-error-dark !important;
+    color: $color-white !important;
+  }
+}
+
+.btn-warning {
+  background-color: $color-warning;
+  border: 1px solid $color-warning;
+  color: $color-white !important;
+
+  &:hover {
+    background-color: $color-warning-dark !important;
+    color: $color-white !important;
+  }
+}
+
+.btn-info {
+  background-color: $color-info;
+  border: 1px solid $color-info;
+  color: $color-white !important;
+
+  &:hover {
+    background-color: $color-info-dark !important;
+    color: $color-white !important;
   }
 }
