@@ -15,7 +15,7 @@
     <!-- For This Page -->
     <link rel="stylesheet" href="./css/prism.css" />
     <!-- Unescape html text here: https://www.freeformatter.com/html-escape.html#ad-output -->
-    
+
     <!-- For Documentation -->
 
     <!-- Font Awesome CDN -->
@@ -34,7 +34,7 @@
     />
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper-area">
       <!-- Start Navigation Bar -->
       <nav>
         <ul class="navbar">
@@ -95,6 +95,17 @@
             >&nbsp;&nbsp;Performance&nbsp;&nbsp;</span
           >
         </p>
+
+        <p>
+          <strong>CSS Size:</strong> 15KB only <br />
+          <strong>JS Size:</strong>(If needed) 10KB only <br />
+          <br />
+          <span class="font-30 text-secondary">
+            Now, it's your choice to choose a framework greater than
+            <span class="bg-warning pl-5 pr-5">500 KB</span> or this <span class="text-primary">SimBox</span>
+          </span>
+        </p>
+
         <p class="text-center mt-100">
           <a
             href="#doc-buttons"
@@ -107,28 +118,34 @@
       <!-- End Home Page Banner-Container -->
 
       <!-- Start Components Documentation -->
-      <div id="document-components">
-        <div id="doc-buttons" class="pl-20 pr-20 mt-100">
+      <div id="document-components" class="wrapper-fluid">
+        <div id="doc-buttons" class="mt-100">
           <h3 class="font-30 mb-0">Buttons</h3>
-          <p>
-            Buttons are very important part for every projects. Let's go with
-            this...
-            <br />
-            See some buttons example...
-          </p>
-          <div id="button-example">
-            <button class="btn">Default Button</button>
-            <button class="btn btn-primary">Primary Button</button>
-            <button class="btn btn-info">Info Button</button>
-            <button class="btn btn-success">Success Button</button>
-            <button class="btn btn-error">Danger/Error Button</button>
-          </div>
-          <div id="button-code-example">
-            <pre><code class="language-markup">&lt;button class=&quot;btn&quot;&gt;Default Button&lt;/button&gt;
+          <div class="row">
+            <div class="col-xs">
+              <p>
+                Buttons are very important part for every projects. Let's go
+                with this...
+                <br />
+                See some buttons example...
+              </p>
+              <div id="button-example">
+                <button class="btn mb-5">Default Button</button>
+                <button class="btn btn-primary mb-5">Primary Button</button>
+                <button class="btn btn-info mb-5">Info Button</button>
+                <button class="btn btn-success mb-5">Success Button</button>
+                <button class="btn btn-error mb-5">Danger/Error Button</button>
+              </div>
+            </div>
+            <div class="col-xs">
+              <div id="button-code-example">
+                <pre><code class="language-markup">&lt;button class=&quot;btn&quot;&gt;Default Button&lt;/button&gt;
 &lt;button class=&quot;btn btn-primary&quot;&gt;Primary Button&lt;/button&gt;
 &lt;button class=&quot;btn btn-info&quot;&gt;Info Button&lt;/button&gt;
 &lt;button class=&quot;btn btn-success&quot;&gt;Success Button&lt;/button&gt;
 &lt;button class=&quot;btn btn-error&quot;&gt;Danger/Error Button&lt;/button&gt;</code></pre>
+              </div>
+            </div>
           </div>
         </div>
       </div>
