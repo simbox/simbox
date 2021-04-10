@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentation SimBox - CSS Framework</title>
+    <title>SimBox | Documentation SimBox - CSS Framework</title>
+    <link rel="icon" type="image/png" href="./img/logo.png" />
 
     <!-- SimBox CSS -->
     <link rel="stylesheet" href="../dist/css/simbox.min.css" />
+
+    <!-- Only for this file css -->
+    <link rel="stylesheet" href="./css/documentation.css" /> 
 
     <!-- Font Awesome CDN -->
     <link
@@ -43,14 +47,18 @@
               >Documentation</a
             >
             <ul class="submenu">
-              <li class="subitem"><a href="#navigation">Navigation Bar</a></li>
-              <li class="subitem"><a href="#buttons">Buttons</a></li>
-              <li class="subitem"><a href="#card">Card</a></li>
-              <li class="subitem"><a href="#alert">Alert</a></li>
+              <li class="subitem">
+                <a href="#doc-navigation">Navigation Bar</a>
+              </li>
+              <li class="subitem"><a href="#doc-buttons">Buttons</a></li>
+              <li class="subitem"><a href="#doc-card">Card</a></li>
+              <li class="subitem"><a href="#doc-alert">Alert</a></li>
             </ul>
           </li>
 
-          <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+          <li class="nav-item">
+            <a href="#doc-blog" class="nav-link">Blog</a>
+          </li>
           <li class="nav-item">
             <a href="#contact" class="nav-link">Contact</a>
           </li>
@@ -70,20 +78,49 @@
       <!-- End Navigation Bar -->
 
       <!-- Start Home Page Banner-Container -->
-      <div class="banner-container">
+      <div class="banner-container mb-80">
         <h1 class="ml-20 text-primary font-80">SimBox</h1>
         <p class="font-40">
-          A CSS framework with in mind of 
-          <span class="bg-success text-white">&nbsp;&nbsp;Simplicity&nbsp;&nbsp;</span> &
-          <span class="bg-success text-white">&nbsp;&nbsp;Performance&nbsp;&nbsp;</span>
+          A CSS framework with in mind of
+          <span class="bg-success text-white"
+            >&nbsp;&nbsp;Simplicity&nbsp;&nbsp;</span
+          >
+          &
+          <span class="bg-success text-white"
+            >&nbsp;&nbsp;Performance&nbsp;&nbsp;</span
+          >
         </p>
-        <p class="text-center">
-          <button class="btn btn-primary bg-transparent text-secondary btn-xl">
+        <p class="text-center mt-100">
+          <a
+            href="#doc-buttons"
+            class="btn btn-primary bg-transparent text-secondary btn-xl"
+          >
             <i class="fa fa-chevron-down"></i>
-          </button>
+          </a>
         </p>
       </div>
       <!-- End Home Page Banner-Container -->
+
+      <!-- Start Components Documentation -->
+      <div id="document-components">
+        <div id="doc-buttons" class="pl-20 pr-20 mt-100">
+          <h3 class="font-30 mb-0">Buttons</h3>
+          <p>
+            Buttons are very important part for every projects. Let's go with
+            this...
+            <br />
+            See some buttons example...
+          </p>
+          <div id="button-example">
+            <button class="btn">Default Button</button>
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-info">Info Button</button>
+            <button class="btn btn-success">Success Button</button>
+            <button class="btn btn-error">Danger/Error Button</button>
+          </div>
+        </div>
+      </div>
+      <!-- End Components Documentation -->
     </div>
 
     <!-- Scripts -->

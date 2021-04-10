@@ -2,24 +2,30 @@
   padding: 10px 15px !important;
   font-size: $font-size;
   border-radius: 5px;
-  background-color: $color-secondary;
+  background-color: $color-white;
   cursor: pointer;
+  color: $color-secondary;
+  border: 1px solid $color-secondary;
 
   &:hover {
-    background-color: $color-secondary-dark;
+    color: $color-secondary;
     transition: 0.3s;
   }
+
   &-lg {
     font-size: $font-size-lg;
   }
+
   &-sm {
     padding: 10px 15px !important;
     font-size: $font-size-sm;
   }
+
   &-xl {
     padding: 20px 30px !important;
     font-size: $font-size-xl;
   }
+
   &-xls {
     padding: 20px 30px !important;
     font-size: $font-size-sm;

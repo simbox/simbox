@@ -3,7 +3,6 @@
 /** Font Sizes **/
 html,
 body {
-  height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Nunito", sans-serif;
@@ -158,11 +157,13 @@ body {
   padding: 10px 15px !important;
   font-size: 1rem;
   border-radius: 5px;
-  background-color: #4a4a4a;
+  background-color: #ffffff;
   cursor: pointer;
+  color: #4a4a4a;
+  border: 1px solid #4a4a4a;
 }
 .btn:hover {
-  background-color: #000;
+  color: #4a4a4a;
   transition: 0.3s;
 }
 .btn-lg {
@@ -275,12 +276,20 @@ body {
   font-size: 50px !important;
 }
 
+.font-60 {
+  font-size: 60px !important;
+}
+
 .font-75 {
   font-size: 75px !important;
 }
 
 .font-80 {
   font-size: 80px !important;
+}
+
+.font-90 {
+  font-size: 90px !important;
 }
 
 .font-100 {
@@ -639,6 +648,38 @@ body {
   margin: 50px !important;
 }
 
+.mt-60 {
+  margin-top: 60px !important;
+}
+
+.m-60 {
+  margin: 60px !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+
+.m-60 {
+  margin: 60px !important;
+}
+
+.ml-60 {
+  margin-left: 60px !important;
+}
+
+.m-60 {
+  margin: 60px !important;
+}
+
+.mr-60 {
+  margin-right: 60px !important;
+}
+
+.m-60 {
+  margin: 60px !important;
+}
+
 .mt-75 {
   margin-top: 75px !important;
 }
@@ -701,6 +742,38 @@ body {
 
 .m-80 {
   margin: 80px !important;
+}
+
+.mt-90 {
+  margin-top: 90px !important;
+}
+
+.m-90 {
+  margin: 90px !important;
+}
+
+.mb-90 {
+  margin-bottom: 90px !important;
+}
+
+.m-90 {
+  margin: 90px !important;
+}
+
+.ml-90 {
+  margin-left: 90px !important;
+}
+
+.m-90 {
+  margin: 90px !important;
+}
+
+.mr-90 {
+  margin-right: 90px !important;
+}
+
+.m-90 {
+  margin: 90px !important;
 }
 
 .mt-100 {
@@ -1087,6 +1160,38 @@ body {
   padding: 50px !important;
 }
 
+.pt-60 {
+  padding-top: 60px !important;
+}
+
+.p-60 {
+  padding: 60px !important;
+}
+
+.pb-60 {
+  padding-bottom: 60px !important;
+}
+
+.p-60 {
+  padding: 60px !important;
+}
+
+.pl-60 {
+  padding-left: 60px !important;
+}
+
+.p-60 {
+  padding: 60px !important;
+}
+
+.pr-60 {
+  padding-right: 60px !important;
+}
+
+.p-60 {
+  padding: 60px !important;
+}
+
 .pt-75 {
   padding-top: 75px !important;
 }
@@ -1149,6 +1254,38 @@ body {
 
 .p-80 {
   padding: 80px !important;
+}
+
+.pt-90 {
+  padding-top: 90px !important;
+}
+
+.p-90 {
+  padding: 90px !important;
+}
+
+.pb-90 {
+  padding-bottom: 90px !important;
+}
+
+.p-90 {
+  padding: 90px !important;
+}
+
+.pl-90 {
+  padding-left: 90px !important;
+}
+
+.p-90 {
+  padding: 90px !important;
+}
+
+.pr-90 {
+  padding-right: 90px !important;
+}
+
+.p-90 {
+  padding: 90px !important;
 }
 
 .pt-100 {
