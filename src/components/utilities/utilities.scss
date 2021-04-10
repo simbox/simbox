@@ -1,6 +1,7 @@
-// Initialize unitilities variables
+// Initialize utility variables
 $spaceamounts: (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100);
 $sides: (top, bottom, left, right);
+$alignments: (left, right, center);
 
 $colors: 
 ($color-white "white") 
@@ -16,6 +17,7 @@ $colors:
 ($color-secondary "secondary") 
 ($color-secondary-dark "secondary-dark");
 
+@import './fonts/fonts.scss';
 @import './margin/margin.scss';
 @import './padding/padding.scss';
 @import './text/text.scss';

@@ -1,0 +1,5 @@
+@each $size in $spaceamounts {
+  .font-#{$size} {
+    font-size: #{$size}px !important;
+  }
+}

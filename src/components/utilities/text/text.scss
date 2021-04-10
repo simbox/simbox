@@ -1,5 +1,13 @@
 @each $color, $name in $colors {
-    .text-#{$name} {
-        color: #{$color} !important;
-    }
+  .text-#{$name} {
+    color: #{$color} !important;
+  }
+}
+
+// Alignments
+@each $align in $alignments {
+  .text-#{$align} {
+    text-align: #{$align} !important;
+    align-items: #{$align} !important;
+  }
 }
