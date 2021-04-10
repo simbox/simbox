@@ -1,6 +1,7 @@
 const TerserJSPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
     entry: './src',
@@ -14,7 +15,8 @@ module.exports = {
 
     // Optimization: minify the js and css files plugins
     optimization: {
-        minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
+        minimize: true, // To ensure a proper minified file, keep this true, if want to raw css file, In production mode, it is default to be true
+        minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin() new CssMinimizerPlugin()]
     },
 
     module: {

@@ -1,5 +1,5 @@
 .btn {
-  padding: 10px 15px!important;
+  padding: 10px 15px !important;
   font-size: $font-size;
   border-radius: 5px;
   background-color: $color-secondary;
@@ -18,5 +18,16 @@
 
   &:hover {
     background-color: $color-primary-dark !important;
+  }
+}
+
+
+.btn-success {
+  background-color: $color-success;
+  border: 1px solid $color-success;
+  color: $color-white !important;
+
+  &:hover {
+    background-color: $color-success-dark !important;
   }
 }

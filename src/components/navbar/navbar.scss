@@ -37,7 +37,7 @@
 
   li {
     a {
-      display: block;
+      display: inline-block!important;
       padding: 15px 5px;
       text-decoration: none;
       cursor: pointer;
@@ -107,6 +107,7 @@
         padding: 10px 15px;
         text-align: left;
         color: $color-secondary;
+        display: block !important;
 
         &:hover {
           color: $color-primary;
