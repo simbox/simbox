@@ -49,6 +49,10 @@
   font-size: 75px !important;
 }
 
+.font-80 {
+  font-size: 80px !important;
+}
+
 .font-100 {
   font-size: 100px !important;
 }
@@ -435,6 +439,38 @@
 
 .m-75 {
   margin: 75px !important;
+}
+
+.mt-80 {
+  margin-top: 80px !important;
+}
+
+.m-80 {
+  margin: 80px !important;
+}
+
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+
+.m-80 {
+  margin: 80px !important;
+}
+
+.ml-80 {
+  margin-left: 80px !important;
+}
+
+.m-80 {
+  margin: 80px !important;
+}
+
+.mr-80 {
+  margin-right: 80px !important;
+}
+
+.m-80 {
+  margin: 80px !important;
 }
 
 .mt-100 {
@@ -853,6 +889,38 @@
   padding: 75px !important;
 }
 
+.pt-80 {
+  padding-top: 80px !important;
+}
+
+.p-80 {
+  padding: 80px !important;
+}
+
+.pb-80 {
+  padding-bottom: 80px !important;
+}
+
+.p-80 {
+  padding: 80px !important;
+}
+
+.pl-80 {
+  padding-left: 80px !important;
+}
+
+.p-80 {
+  padding: 80px !important;
+}
+
+.pr-80 {
+  padding-right: 80px !important;
+}
+
+.p-80 {
+  padding: 80px !important;
+}
+
 .pt-100 {
   padding-top: 100px !important;
 }
@@ -1007,6 +1075,11 @@ body {
 
 .wrapper {
   padding: 0px;
+}
+
+.banner-container {
+  text-align: center;
+  padding: 50px 30px;
 }
 
 .navbar {
