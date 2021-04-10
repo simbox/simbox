@@ -1,0 +1,22 @@
+// Initialize unitilities variables
+$spaceamounts: (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100);
+$sides: (top, bottom, left, right);
+
+$colors: 
+($color-white "white") 
+($color-black "black") 
+($color-primary "primary") 
+($color-primary-dark "primary-dark")
+($color-success "success") 
+($color-success-dark "success-dark")
+($color-warning "warning") 
+($color-warning-dark "warning-dark")
+($color-info "info") 
+($color-info-dark "info-dark")
+($color-secondary "secondary") 
+($color-secondary-dark "secondary-dark");
+
+@import './margin/margin.scss';
+@import './padding/padding.scss';
+@import './text/text.scss';
+@import './background/background.scss';

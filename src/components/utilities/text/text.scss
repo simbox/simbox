@@ -1,0 +1,5 @@
+@each $color, $name in $colors {
+    .text-#{$name} {
+        color: #{$color} !important;
+    }
+}

@@ -1,0 +1,12 @@
+@each $space in $spaceamounts {
+    @each $side in $sides {
+      .p#{str-slice($side, 0, 1)}-#{$space} {
+        padding-#{$side}: #{$space}px !important;
+      }
+  
+      .p-#{$space} {
+        padding: #{$space}px !important;
+      }
+    }
+  }
+  

@@ -15,8 +15,8 @@ module.exports = {
 
     // Optimization: minify the js and css files plugins
     optimization: {
-        minimize: true, // To ensure a proper minified file, keep this true, if want to raw css file, In production mode, it is default to be true
-        minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin() new CssMinimizerPlugin()]
+        minimize: false, // To ensure a proper minified file, keep this true, if want to raw css file, In production mode, it is default to be true
+        minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin(), new CssMinimizerPlugin()]
     },
 
     module: {
